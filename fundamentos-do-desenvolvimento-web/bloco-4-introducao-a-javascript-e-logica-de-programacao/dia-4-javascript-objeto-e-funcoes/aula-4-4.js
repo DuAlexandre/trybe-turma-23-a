@@ -54,3 +54,16 @@ let car = {
   for (let key in car){
       console.log(key, car[key]);
   }
+  
+
+
+  function majorAmongThree (a, b, c) {
+      if(a > b && a > c){
+          return a;
+      }else if (b > a && b > c){
+          return b;
+      }else {
+          return c;
+      }
+  }
+console.log(majorAmongThree(75,52,20));
