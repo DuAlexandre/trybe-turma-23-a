@@ -69,21 +69,40 @@ let car = {
 console.log(majorAmongThree(75,52,20));
 
 //Ex1:
-let info = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+ let info = {
+   personagem: 'Margarida',
+   origem: 'Pato Donald',
+   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+ };
+// //console.log("Bem vinda, " + info.personagem);
+
+ info['recorrente'] = 'Sim'
+
+// //console.table(info);
+
+// for (key in info){
+//  // console.log(key);
+// }
+
+// for (index in info){
+// // console.log(info[index]);
+// }
+
+// //Ex5
+ let info2 = {
+   personagem2: 'Tio Patinhas',
+   origem2: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+   nota2: 'O último MacPatinhas',
+   recorrente2: 'Sim',
+ };
+// //for (index2 in info2){
+//  // console.log(info2[index2]);
+// //}
+// console.log(info[index] + info2[index2]);
+
+for (index in info){
+  for (index2 in info2){
+
+  };
 };
-for (let nome of info){
-  console.log("Bem vinda " + info[nome]);
-}
-
-function majorAmongTwo (a, b){
-  if (a > b){
-    return a
-  }else{
-    return b
-  }
-}
-
-console.log(majorAmongTwo(88,67));
+console.log(info[index] + " e " + info2[index]);
