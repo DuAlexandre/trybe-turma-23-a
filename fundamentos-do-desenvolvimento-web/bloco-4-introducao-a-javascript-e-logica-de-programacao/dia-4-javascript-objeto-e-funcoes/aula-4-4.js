@@ -67,3 +67,23 @@ let car = {
       }
   }
 console.log(majorAmongThree(75,52,20));
+
+//Ex1:
+let info = {
+  personagem: 'Margarida',
+  origem: 'Pato Donald',
+  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+};
+for (let nome of info){
+  console.log("Bem vinda " + info[nome]);
+}
+
+function majorAmongTwo (a, b){
+  if (a > b){
+    return a
+  }else{
+    return b
+  }
+}
+
+console.log(majorAmongTwo(88,67));
