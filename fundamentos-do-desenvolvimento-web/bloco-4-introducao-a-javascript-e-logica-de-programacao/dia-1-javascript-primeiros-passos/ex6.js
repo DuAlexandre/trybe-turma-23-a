@@ -165,7 +165,7 @@ if (custo >= 0 && valor >= 0){
   //  console.log((salBruto - 570.88) * 0.725 + 869.36 );
 //}
 
-const salarioBruto = 6000;
+const salarioBruto = 5201;
 let salarioBrutoMenosINSS;
 let salarioLiquido;
 
@@ -190,6 +190,7 @@ if (salarioBrutoMenosINSS <= 1903.98){
 }else if (salarioBrutoMenosINSS >= 4664.69){
     salarioLiquido = salarioBrutoMenosINSS * 0.725 + 869.36;
 }
-console.log(salarioLiquido);
+let imposto = salarioBruto - salarioLiquido
+console.log("Seu salário é de " + salarioLiquido + ". Você pagou " + imposto + " pra ajudar a sustentar a corte!");
 
 
