@@ -86,7 +86,7 @@ switch (lowerxadrez){
 
 //Programa que converte nota dada em porcentagem (de 0 a 100) em conceitos de A a F
 
-let nota = 70;
+function conceito (nota){
 
 if (nota >= 90 && nota <= 100){
     console.log("A");
@@ -103,7 +103,8 @@ if (nota >= 90 && nota <= 100){
 }else if(nota >100 || nota < 0){
     console.log("Erro!");
 }
-
+}
+console.log(conceito(101));
 // Programa retorna true ou false se encontrar um número par entre três
 
 const n1 = 3;
