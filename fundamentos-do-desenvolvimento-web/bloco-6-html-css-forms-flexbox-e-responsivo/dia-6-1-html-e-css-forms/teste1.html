@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="get">
+        <label for="input-text">Digite seu nome</label>
+        <input type="text" name="texto" placeholder="digite aqui" id="input-text" required>
+        <button type="submit">Enviar</button>
+        <br>
+        <br>
+        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> cria area de digitação -->
+        <input type="checkbox" value="fut" name="esporte">Futebol
+        <input type="checkbox" value="vol" name="esporte">Voley
+        <input type="checkbox" value="bas" name="esporte">Basquete
+        <br><br>
+        <label for="hub1"><input type="radio" id="hub1" name="hub" value="sp">São Paulo</label>
+        
+        <input type="radio" id="hub2" name="hub" value="rj">Rio de Janeiro
+        <input type="radio" id="hub3" name="hub" value="pa">Pará
+        <input type="radio" id="hub4" name="hub" value="am">Amazonas
+        <br><br>
+        <select name="estado" id="dropdown-estado">
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="ba">Bahia</option>
+            <option value="pa">Pará</option>
+        </select>
+        <input type="password" name="senha">
+    </form>
+</body>
+</html>
