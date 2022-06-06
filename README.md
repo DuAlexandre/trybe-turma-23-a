@@ -39,26 +39,26 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 4-4: _JavaScript - Objetos e Funções_
 - [x] 4-5: _[Projeto - Playground Functions]()_
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage ✔️
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5: _[Projeto - Arte com Pixels]()_
+- [X] 5-4: _JavaScript - Web Storage_
+- [X] 5-5: _Fundamentos - JavaScript - Projetos_
+- [X] 5-5: _[Projeto - Arte com Pixels]()_
 - [ ] 5-6: _(Bônus)[Projeto - Lista de tarefas]()_
 - [ ] 5-7: _(Bônus)[Projeto - Meme Generator]()_
-- [ ] 5-7: _(Bônus)[Projeto - Adivinhe a Cor]()_
+- [X] 5-7: _(Bônus)[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _(Bônus)[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _Introdução - CSS Flexbox_
-- [ ] 6-3: _CSS Flexbox - Parte 1_
-- [ ] 6-4: _CSS Flexbox - Parte 2_
+- [X] 6-1: _HTML & CSS - Forms_
+- [X] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [X] 6-3: _Introdução - CSS Flexbox_
+- [x] 6-3: _CSS Flexbox - Parte 1_
+- [x] 6-4: _CSS Flexbox - Parte 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - Trybewarts]()_
 
